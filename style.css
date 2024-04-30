@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+.main-container{
+    margin-top: 5%;
+    width: 25%;
+    height: 70%;
+    align-self: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(80, 79, 79, 0.856);
+    border-radius: 10px;
+
+}
+.myimg{
+    margin-top: 5%;
+    padding:5%;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+p{
+   font-size:18px;
+   font-weight: 300;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.name {
+    justify-content: center;
+    border: 5px grey solid;
+    background-color: lightgray;
+font-weight: 600;
+font-size: 25px;
+}
+.job{
+    margin-top: -1%;
+    background-color: rgba(255, 72, 0, 0.705);
+    color:antiquewhite
+}
+.description{
+    margin-top:-1%;
+    background-color: rgba(37, 37, 37, 0.6);
+    color:white;
+    padding: 5%;
+    font-size: larger;
+}
